@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B91674659424E62A4DBBB09 /* libPods-CAAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DE3D432D025774BC38FB9F /* libPods-CAAnimation.a */; };
+		9B1ECD9D204F807200C8E4B8 /* DMBasicAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1ECD9C204F807200C8E4B8 /* DMBasicAnimationController.m */; };
+		9B1ECDA6204F8A0900C8E4B8 /* CABasicRealizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1ECDA5204F8A0900C8E4B8 /* CABasicRealizeController.m */; };
+		9BEC643F204E8D7A009B15E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC643B204E8D7A009B15E8 /* Assets.xcassets */; };
+		9BEC6440204E8D7A009B15E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC643C204E8D7A009B15E8 /* main.m */; };
+		9BEC6441204E8D7A009B15E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC643D204E8D7A009B15E8 /* AppDelegate.m */; };
+		9BEC6448204E8DA4009B15E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC6444204E8DA4009B15E8 /* LaunchScreen.storyboard */; };
+		9BEC6449204E8DA4009B15E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC6446204E8DA4009B15E8 /* Main.storyboard */; };
+		9BEC6461204E8DF1009B15E8 /* CATransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC644E204E8DF0009B15E8 /* CATransitionController.m */; };
+		9BEC6462204E8DF1009B15E8 /* NSString+DMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC644F204E8DF0009B15E8 /* NSString+DMExtension.m */; };
+		9BEC6463204E8DF1009B15E8 /* DMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6451204E8DF0009B15E8 /* DMAnimation.m */; };
+		9BEC6464204E8DF1009B15E8 /* DMRectangleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6452204E8DF0009B15E8 /* DMRectangleFlowLayout.m */; };
+		9BEC6465204E8DF1009B15E8 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6454204E8DF0009B15E8 /* CircleLayout.m */; };
+		9BEC6466204E8DF1009B15E8 /* DMTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC6455204E8DF0009B15E8 /* DMTestCell.xib */; };
+		9BEC6467204E8DF1009B15E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6456204E8DF0009B15E8 /* ViewController.m */; };
+		9BEC6468204E8DF1009B15E8 /* DMTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6457204E8DF0009B15E8 /* DMTestCell.m */; };
+		9BEC6469204E8DF1009B15E8 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6459204E8DF0009B15E8 /* CustomFlowLayout.m */; };
+		9BEC646A204E8DF1009B15E8 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC6460204E8DF0009B15E8 /* RootTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037F21117D83D312ED755915 /* Pods-CAAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAAnimation/Pods-CAAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1ECD9B204F807200C8E4B8 /* DMBasicAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBasicAnimationController.h; sourceTree = "<group>"; };
+		9B1ECD9C204F807200C8E4B8 /* DMBasicAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBasicAnimationController.m; sourceTree = "<group>"; };
+		9B1ECD9F204F876400C8E4B8 /* CAPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAPrefix.pch; sourceTree = "<group>"; };
+		9B1ECDA0204F887400C8E4B8 /* CAAPPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAPPMacros.h; sourceTree = "<group>"; };
+		9B1ECDA4204F8A0900C8E4B8 /* CABasicRealizeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABasicRealizeController.h; sourceTree = "<group>"; };
+		9B1ECDA5204F8A0900C8E4B8 /* CABasicRealizeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABasicRealizeController.m; sourceTree = "<group>"; };
+		9BEC6404204E8D26009B15E8 /* CAAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEC643A204E8D7A009B15E8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BEC643B204E8D7A009B15E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BEC643C204E8D7A009B15E8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BEC643D204E8D7A009B15E8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BEC643E204E8D7A009B15E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BEC6445204E8DA4009B15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BEC6447204E8DA4009B15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		9BEC644A204E8DF0009B15E8 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		9BEC644D204E8DF0009B15E8 /* CATransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionController.h; sourceTree = "<group>"; };
+		9BEC644E204E8DF0009B15E8 /* CATransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionController.m; sourceTree = "<group>"; };
+		9BEC644F204E8DF0009B15E8 /* NSString+DMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DMExtension.m"; sourceTree = "<group>"; };
+		9BEC6451204E8DF0009B15E8 /* DMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAnimation.m; sourceTree = "<group>"; };
+		9BEC6452204E8DF0009B15E8 /* DMRectangleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRectangleFlowLayout.m; sourceTree = "<group>"; };
+		9BEC6453204E8DF0009B15E8 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		9BEC6454204E8DF0009B15E8 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		9BEC6455204E8DF0009B15E8 /* DMTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMTestCell.xib; sourceTree = "<group>"; };
+		9BEC6456204E8DF0009B15E8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BEC6457204E8DF0009B15E8 /* DMTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTestCell.m; sourceTree = "<group>"; };
+		9BEC6458204E8DF0009B15E8 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		9BEC6459204E8DF0009B15E8 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		9BEC645A204E8DF0009B15E8 /* DMRectangleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRectangleFlowLayout.h; sourceTree = "<group>"; };
+		9BEC645B204E8DF0009B15E8 /* DMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAnimation.h; sourceTree = "<group>"; };
+		9BEC645C204E8DF0009B15E8 /* DMTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTestCell.h; sourceTree = "<group>"; };
+		9BEC645D204E8DF0009B15E8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BEC645F204E8DF0009B15E8 /* NSString+DMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DMExtension.h"; sourceTree = "<group>"; };
+		9BEC6460204E8DF0009B15E8 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		E6DE3D432D025774BC38FB9F /* libPods-CAAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CAAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3634023DA8CC525B03EF1F3 /* Pods-CAAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAAnimation/Pods-CAAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BEC6401204E8D26009B15E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B91674659424E62A4DBBB09 /* libPods-CAAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B1ECD9E204F874900C8E4B8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9B1ECD9F204F876400C8E4B8 /* CAPrefix.pch */,
+				9B1ECDA0204F887400C8E4B8 /* CAAPPMacros.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9BEC63FB204E8D26009B15E8 = {
+			isa = PBXGroup;
+			children = (
+				9BEC6406204E8D26009B15E8 /* CAAnimation */,
+				9BEC6405204E8D26009B15E8 /* Products */,
+				A8797754EBFC1BC31B298D66 /* Pods */,
+				9F777D4E01434A6D28A2807F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BEC6405204E8D26009B15E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC6404204E8D26009B15E8 /* CAAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BEC6406204E8D26009B15E8 /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9B1ECD9E204F874900C8E4B8 /* Configuration */,
+				9BEC646B204F7B24009B15E8 /* TransitionAnimation */,
+				9BEC645E204E8DF0009B15E8 /* CABasicAnimation */,
+				9BEC644B204E8DF0009B15E8 /* CAKeyframeAnimation */,
+				9BEC644C204E8DF0009B15E8 /* CATransition */,
+				9BEC6450204E8DF0009B15E8 /* UICollectionViewDemo */,
+				9BEC6439204E8D7A009B15E8 /* Support */,
+			);
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		9BEC6439204E8D7A009B15E8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC6443204E8DA4009B15E8 /* Base.lproj */,
+				9BEC645F204E8DF0009B15E8 /* NSString+DMExtension.h */,
+				9BEC644F204E8DF0009B15E8 /* NSString+DMExtension.m */,
+				9BEC644A204E8DF0009B15E8 /* RootTableViewController.h */,
+				9BEC6460204E8DF0009B15E8 /* RootTableViewController.m */,
+				9BEC643A204E8D7A009B15E8 /* AppDelegate.h */,
+				9BEC643D204E8D7A009B15E8 /* AppDelegate.m */,
+				9BEC643B204E8D7A009B15E8 /* Assets.xcassets */,
+				9BEC643C204E8D7A009B15E8 /* main.m */,
+				9BEC643E204E8D7A009B15E8 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		9BEC6443204E8DA4009B15E8 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC6444204E8DA4009B15E8 /* LaunchScreen.storyboard */,
+				9BEC6446204E8DA4009B15E8 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		9BEC644B204E8DF0009B15E8 /* CAKeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAKeyframeAnimation;
+			sourceTree = "<group>";
+		};
+		9BEC644C204E8DF0009B15E8 /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC644D204E8DF0009B15E8 /* CATransitionController.h */,
+				9BEC644E204E8DF0009B15E8 /* CATransitionController.m */,
+			);
+			path = CATransition;
+			sourceTree = "<group>";
+		};
+		9BEC6450204E8DF0009B15E8 /* UICollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC6451204E8DF0009B15E8 /* DMAnimation.m */,
+				9BEC6452204E8DF0009B15E8 /* DMRectangleFlowLayout.m */,
+				9BEC6453204E8DF0009B15E8 /* CustomFlowLayout.h */,
+				9BEC6454204E8DF0009B15E8 /* CircleLayout.m */,
+				9BEC6455204E8DF0009B15E8 /* DMTestCell.xib */,
+				9BEC6456204E8DF0009B15E8 /* ViewController.m */,
+				9BEC6457204E8DF0009B15E8 /* DMTestCell.m */,
+				9BEC6458204E8DF0009B15E8 /* CircleLayout.h */,
+				9BEC6459204E8DF0009B15E8 /* CustomFlowLayout.m */,
+				9BEC645A204E8DF0009B15E8 /* DMRectangleFlowLayout.h */,
+				9BEC645B204E8DF0009B15E8 /* DMAnimation.h */,
+				9BEC645C204E8DF0009B15E8 /* DMTestCell.h */,
+				9BEC645D204E8DF0009B15E8 /* ViewController.h */,
+			);
+			path = UICollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		9BEC645E204E8DF0009B15E8 /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9B1ECD9B204F807200C8E4B8 /* DMBasicAnimationController.h */,
+				9B1ECD9C204F807200C8E4B8 /* DMBasicAnimationController.m */,
+				9B1ECDA4204F8A0900C8E4B8 /* CABasicRealizeController.h */,
+				9B1ECDA5204F8A0900C8E4B8 /* CABasicRealizeController.m */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		9BEC646B204F7B24009B15E8 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		9F777D4E01434A6D28A2807F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6DE3D432D025774BC38FB9F /* libPods-CAAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8797754EBFC1BC31B298D66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037F21117D83D312ED755915 /* Pods-CAAnimation.debug.xcconfig */,
+				F3634023DA8CC525B03EF1F3 /* Pods-CAAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BEC6403204E8D26009B15E8 /* CAAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEC6430204E8D26009B15E8 /* Build configuration list for PBXNativeTarget "CAAnimation" */;
+			buildPhases = (
+				9C23967DB4B1CE4B97CBC63F /* [CP] Check Pods Manifest.lock */,
+				9BEC6400204E8D26009B15E8 /* Sources */,
+				9BEC6401204E8D26009B15E8 /* Frameworks */,
+				9BEC6402204E8D26009B15E8 /* Resources */,
+				F92CDF9048F3CAE17DB2919C /* [CP] Embed Pods Frameworks */,
+				D782B8991BB7B7686762782D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAAnimation;
+			productName = CAAnimation;
+			productReference = 9BEC6404204E8D26009B15E8 /* CAAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BEC63FC204E8D26009B15E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LDZ;
+				TargetAttributes = {
+					9BEC6403204E8D26009B15E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9BEC63FF204E8D26009B15E8 /* Build configuration list for PBXProject "CAAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BEC63FB204E8D26009B15E8;
+			productRefGroup = 9BEC6405204E8D26009B15E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BEC6403204E8D26009B15E8 /* CAAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BEC6402204E8D26009B15E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEC6466204E8DF1009B15E8 /* DMTestCell.xib in Resources */,
+				9BEC6448204E8DA4009B15E8 /* LaunchScreen.storyboard in Resources */,
+				9BEC643F204E8D7A009B15E8 /* Assets.xcassets in Resources */,
+				9BEC6449204E8DA4009B15E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C23967DB4B1CE4B97CBC63F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D782B8991BB7B7686762782D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAAnimation/Pods-CAAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92CDF9048F3CAE17DB2919C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAAnimation/Pods-CAAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BEC6400204E8D26009B15E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEC6468204E8DF1009B15E8 /* DMTestCell.m in Sources */,
+				9BEC6465204E8DF1009B15E8 /* CircleLayout.m in Sources */,
+				9B1ECD9D204F807200C8E4B8 /* DMBasicAnimationController.m in Sources */,
+				9BEC6441204E8D7A009B15E8 /* AppDelegate.m in Sources */,
+				9BEC6467204E8DF1009B15E8 /* ViewController.m in Sources */,
+				9BEC6469204E8DF1009B15E8 /* CustomFlowLayout.m in Sources */,
+				9BEC6461204E8DF1009B15E8 /* CATransitionController.m in Sources */,
+				9BEC6463204E8DF1009B15E8 /* DMAnimation.m in Sources */,
+				9B1ECDA6204F8A0900C8E4B8 /* CABasicRealizeController.m in Sources */,
+				9BEC6462204E8DF1009B15E8 /* NSString+DMExtension.m in Sources */,
+				9BEC646A204E8DF1009B15E8 /* RootTableViewController.m in Sources */,
+				9BEC6464204E8DF1009B15E8 /* DMRectangleFlowLayout.m in Sources */,
+				9BEC6440204E8D7A009B15E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BEC6444204E8DA4009B15E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BEC6445204E8DA4009B15E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9BEC6446204E8DA4009B15E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BEC6447204E8DA4009B15E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BEC642E204E8D26009B15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BEC642F204E8D26009B15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BEC6431204E8D26009B15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037F21117D83D312ED755915 /* Pods-CAAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C939V75QW;
+				GCC_PREFIX_HEADER = CAAnimation/Configuration/CAPrefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/CAAnimation/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDZ.CAAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9BEC6432204E8D26009B15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3634023DA8CC525B03EF1F3 /* Pods-CAAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C939V75QW;
+				GCC_PREFIX_HEADER = CAAnimation/Configuration/CAPrefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/CAAnimation/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDZ.CAAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BEC63FF204E8D26009B15E8 /* Build configuration list for PBXProject "CAAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEC642E204E8D26009B15E8 /* Debug */,
+				9BEC642F204E8D26009B15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEC6430204E8D26009B15E8 /* Build configuration list for PBXNativeTarget "CAAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEC6431204E8D26009B15E8 /* Debug */,
+				9BEC6432204E8D26009B15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BEC63FC204E8D26009B15E8 /* Project object */;
+}
